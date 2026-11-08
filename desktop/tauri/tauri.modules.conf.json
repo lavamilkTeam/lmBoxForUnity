@@ -1,7 +1,0 @@
-{
-  "build": {
-    "beforeBuildCommand": "",
-    "frontendDist": "../../.tools/module-shell"
-  },
-  "bundle": { "resources": [] }
-}

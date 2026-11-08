@@ -1,43 +1,24 @@
-node_modules/
-dist/
-dist-cloud/
-dist-installer/
-dist-installer-qt/
-test-results/
 .DS_Store
-playwright-report/
+/AIAgentDemo/
+**/[Ll]ibrary/
+**/[Tt]emp/
+**/[Oo]bj/
+**/[Ll]ogs/
+**/[Uu]ser[Ss]ettings/
+**/[Bb]uilds/
+**/node_modules/
+.idea/
+.vs/
+*.csproj
+*.sln
+*.suo
+*.user
 .env
 .env.*
 !.env.example
-*.pem
-*.key
+**/ProjectSettings/LmboxAIAgentSettings.json
+**/ProjectSettings/LmboxAIAgentSettings.json.meta
 
-# Rust toolchain artifacts (local cache and build output)
-.cargo-home/
-src-rust/target/
-desktop/tauri/target/
-
-# Reproducible browser parser build and local build tools
-.tools/
-runtime/openfoam/source/
-runtime/openfoam/.source-stage-*/
-frontend/platform/desktop/lib/generated/
-engine/.venv/
-engine/.pytest_cache/
-engine/.ruff_cache/
-engine/.import_linter_cache/
-**/__pycache__/
-engine/src/*.egg-info/
-
-# Desktop build products
-desktop/tauri/binaries/
-desktop/tauri/gen/
-desktop/tauri/resources/
-
-# Optional module distribution artifacts
-dist-modules/
-dist-cfd-runtime/
-desktop/modules/target/
-
-# Agent web deployment output
-dist-web-agent/
+!Cli~/*.csproj
+/Cli~/bin/
+/Cli~/obj/

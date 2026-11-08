@@ -1,3 +1,0 @@
-# Gerber snapshots include byte offsets into these fixtures. Keep the same
-# source bytes on every platform, including checkouts with core.autocrlf=true.
-/src-rust/tests/fixtures/*.gbr text eol=lf
