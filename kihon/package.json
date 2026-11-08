@@ -1,0 +1,21 @@
+{
+  "name": "com.lmbox.ai-agent",
+  "version": "0.1.0",
+  "displayName": "LMBox AI Agent",
+  "description": "An in-editor AI agent for Unity: chat with an LLM that can inspect and manipulate your project (scene, assets, scripts, console, play mode) through a tool-calling agent loop. Targets Unity 2022.3 LTS and any OpenAI-compatible API.",
+  "unity": "2022.3",
+  "unityRelease": "0f1",
+  "keywords": [
+    "ai",
+    "agent",
+    "llm",
+    "editor",
+    "assistant"
+  ],
+  "author": {
+    "name": "LMBox"
+  },
+  "dependencies": {
+    "com.unity.nuget.newtonsoft-json": "3.0.2"
+  }
+}

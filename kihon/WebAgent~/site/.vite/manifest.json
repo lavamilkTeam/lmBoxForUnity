@@ -1,0 +1,18 @@
+{
+  "agent-web.html": {
+    "file": "assets/agent-web-CpWNWJ5b.js",
+    "name": "agent-web",
+    "src": "agent-web.html",
+    "isEntry": true,
+    "css": [
+      "assets/agent-web-DTyjg6ZR.css"
+    ],
+    "assets": [
+      "assets/lmbox-logo-pig-bCB_N9BR.png"
+    ]
+  },
+  "docs/images/lmbox-logo-pig.png": {
+    "file": "assets/lmbox-logo-pig-bCB_N9BR.png",
+    "src": "docs/images/lmbox-logo-pig.png"
+  }
+}

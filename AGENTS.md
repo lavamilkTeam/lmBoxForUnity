@@ -69,6 +69,9 @@ PR 标题字段使用自然、简洁的英文标题；正文采用上述结构�
 <!-- agent-directory:start -->
 ```text
 .
+├── kihon/
+│   ├── package.json
+│   └── DEVELOPMENT.md
 ├── AGENTS.md
 ├── installer.html
 ├── vite.installer.config.ts

@@ -1,0 +1,9 @@
+#!/bin/sh
+set -eu
+cli_root=$(CDPATH= cd -- "$(dirname -- "$0")" && pwd)
+if [ -n "${LMBOX_DOTNET:-}" ]; then cli_dotnet="$LMBOX_DOTNET"
+elif command -v dotnet >/dev/null 2>&1; then cli_dotnet=$(command -v dotnet)
+elif [ -x "$HOME/.dotnet/dotnet" ]; then cli_dotnet="$HOME/.dotnet/dotnet"
+else printf '%s\n' 'lmu3d requires .NET 10; set LMBOX_DOTNET.' >&2; exit 3
+fi
+exec "$cli_dotnet" "$cli_root/../WebAgent~/cli/lmu3d.dll" "$@"

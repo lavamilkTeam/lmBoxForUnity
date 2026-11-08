@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "operations": [
+    {
+      "op": "lighting.apply",
+      "name": "Sun",
+      "type": "Directional",
+      "color": "#fff1d6",
+      "intensity": 1.5,
+      "shadows": "Soft",
+      "mode": "Realtime",
+      "rotation": {"x": 45, "y": -30, "z": 0}
+    }
+  ]
+}

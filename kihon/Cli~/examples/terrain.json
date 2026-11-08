@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "operations": [
+    {
+      "op": "terrain.paint",
+      "target": "Terrain",
+      "layer": 1,
+      "position": {"x": 50, "y": 0, "z": 50},
+      "radius": 20,
+      "strength": 0.8
+    }
+  ]
+}

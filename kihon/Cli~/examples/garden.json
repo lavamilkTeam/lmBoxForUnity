@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "operations": [
+    {
+      "op": "objects.place",
+      "prefab": "Assets/Prefabs/Tree.prefab",
+      "name": "GardenTree",
+      "count": 5,
+      "position": {"x": 0, "y": 0, "z": 0},
+      "step": {"x": 3, "y": 0, "z": 0},
+      "rotation": {"x": 0, "y": 30, "z": 0},
+      "scale": {"x": 1, "y": 1, "z": 1}
+    }
+  ]
+}

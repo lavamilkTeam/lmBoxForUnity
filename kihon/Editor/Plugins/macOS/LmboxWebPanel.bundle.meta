@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: fa3dc141c9774288a8bfc7eb0d5cede6
+folderAsset: yes
+PluginImporter:
+  serializedVersion: 1
+  iconMap: {}
+  executionOrder: {}
+  isPreloaded: 0
+  platformData:
+    Any:
+      enabled: 0
+      settings: {}
+    Editor:
+      enabled: 1
+      settings:
+        CPU: AnyCPU
+        DefaultValueInitialized: true
+        OS: OSX
+  userData:
+  assetBundleName:
+  assetBundleVariant:
